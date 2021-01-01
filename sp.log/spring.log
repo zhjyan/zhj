@@ -1,0 +1,504 @@
+2021-01-01 08:26:53.512  INFO 3464 --- [main] com.hp.Demo02Application                 : Starting Demo02Application using Java 1.8.0_144 on DESKTOP-93B23N9 with PID 3464 (D:\project\demo02\target\classes started by 2609106893 in D:\project\demo02)
+2021-01-01 08:26:53.526  INFO 3464 --- [main] com.hp.Demo02Application                 : No active profile set, falling back to default profiles: default
+2021-01-01 08:26:54.556  INFO 3464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-01 08:26:54.560  INFO 3464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-01 08:26:54.587  INFO 3464 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-01-01 08:26:55.273  INFO 3464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-01 08:26:55.284  INFO 3464 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-01 08:26:55.285  INFO 3464 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-01 08:26:55.442  INFO 3464 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-01 08:26:55.442  INFO 3464 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1818 ms
+2021-01-01 08:26:55.476 DEBUG 3464 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-01-01 08:26:55.476 DEBUG 3464 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/], statViewServlet urls=[/druid/*]
+2021-01-01 08:26:55.553  INFO 3464 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-01 08:26:56.016  INFO 3464 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-01 08:26:56.650  INFO 3464 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-01 08:26:56.665 DEBUG 3464 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-01-01 08:26:56.763 DEBUG 3464 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2021-01-01 08:26:56.803 DEBUG 3464 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-01-01 08:26:56.816 DEBUG 3464 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-01-01 08:26:56.853  WARN 3464 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-01 08:26:57.463  INFO 3464 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-01 08:26:57.477  INFO 3464 --- [main] com.hp.Demo02Application                 : Started Demo02Application in 4.588 seconds (JVM running for 6.379)
+2021-01-01 08:27:05.987  INFO 3464 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-01 08:27:05.988  INFO 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-01 08:27:05.988 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-01-01 08:27:05.989 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-01-01 08:27:05.989 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-01-01 08:27:05.991 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@7e9b794a
+2021-01-01 08:27:05.992 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@7d3ca678
+2021-01-01 08:27:05.992 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-01-01 08:27:05.992  INFO 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-01-01 08:27:06.015 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/", parameters={}
+2021-01-01 08:27:06.025 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:27:06.028 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-01-01 08:27:06.028 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-01-01 08:27:06.037 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-01-01 08:27:06.040 DEBUG 3464 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-01-01 08:27:06.090 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-01-01 08:27:06.095 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-01-01 08:27:22.689 DEBUG 3464 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/selectAll", parameters={}
+2021-01-01 08:27:22.690 DEBUG 3464 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:27:22.883 DEBUG 3464 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:27:22.884 DEBUG 3464 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@755635ae, com.hp.bean.Admin@1b30be45, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:27:22.986 DEBUG 3464 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:32:55.815 DEBUG 3464 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/selectAll", parameters={}
+2021-01-01 08:32:55.815 DEBUG 3464 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:32:55.820 DEBUG 3464 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:32:55.821 DEBUG 3464 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@1808a07e, com.hp.bean.Admin@c370a2e, com.hp.bean.Admin@ (truncated)...]
+2021-01-01 08:32:55.822 DEBUG 3464 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:32:55.874 DEBUG 3464 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/favicon.ico", parameters={}
+2021-01-01 08:32:55.875 DEBUG 3464 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:32:55.878 DEBUG 3464 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-01-01 08:32:55.878 DEBUG 3464 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-01-01 08:32:55.879 DEBUG 3464 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-01-01 08:32:55.880 DEBUG 3464 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-01-01 08:32:55.883 DEBUG 3464 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json;q=0.8', given [image/webp, image/apng, image/*, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:32:55.884 DEBUG 3464 --- [http-nio-8080-exec-6] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Fri Jan 01 08:32:55 CST 2021, status=404, error=Not Found, message=, path=/favicon.ico}]
+2021-01-01 08:32:55.919 DEBUG 3464 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-01-01 08:38:04.688 DEBUG 3464 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/selectAll", parameters={}
+2021-01-01 08:38:04.689 DEBUG 3464 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:38:04.692 DEBUG 3464 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:38:04.693 DEBUG 3464 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@2d4e703a, com.hp.bean.Admin@2971f14b, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:38:04.694 DEBUG 3464 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:38:10.536 DEBUG 3464 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/api/admin/selectAll", parameters={}
+2021-01-01 08:38:10.537 DEBUG 3464 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:38:10.540 DEBUG 3464 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json;q=0.8', given [text/html, application/xhtml+xml, image/webp, image/apng, application/xml;q=0.9, application/signed-exchange;v=b3;q=0.9, */*;q=0.8] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:38:10.541 DEBUG 3464 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@6b62582f, com.hp.bean.Admin@6f5dc19b, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:38:10.542 DEBUG 3464 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:38:28.046 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/selectAll", parameters={}
+2021-01-01 08:38:28.048 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:38:28.050 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-01-01 08:38:28.050 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-01-01 08:38:28.051 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-01-01 08:38:28.052 DEBUG 3464 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-01-01 08:38:28.055 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-01-01 08:38:28.055 DEBUG 3464 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-01-01 08:38:39.615 DEBUG 3464 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/selectAll.html", parameters={}
+2021-01-01 08:38:39.616 DEBUG 3464 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:38:39.618 DEBUG 3464 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-01-01 08:38:39.619 DEBUG 3464 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-01-01 08:38:39.619 DEBUG 3464 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-01-01 08:38:39.620 DEBUG 3464 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-01-01 08:38:39.622 DEBUG 3464 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-01-01 08:38:39.623 DEBUG 3464 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-01-01 08:38:43.153 DEBUG 3464 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/selectAll.html", parameters={}
+2021-01-01 08:38:43.154 DEBUG 3464 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:38:43.155 DEBUG 3464 --- [http-nio-8080-exec-3] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-01-01 08:38:43.156 DEBUG 3464 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-01-01 08:38:43.156 DEBUG 3464 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-01-01 08:38:43.157 DEBUG 3464 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-01-01 08:38:43.159 DEBUG 3464 --- [http-nio-8080-exec-3] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-01-01 08:38:43.159 DEBUG 3464 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-01-01 08:38:45.770 DEBUG 3464 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/selectAll.html", parameters={}
+2021-01-01 08:38:45.771 DEBUG 3464 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:38:45.773 DEBUG 3464 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-01-01 08:38:45.773 DEBUG 3464 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-01-01 08:38:45.774 DEBUG 3464 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-01-01 08:38:45.774 DEBUG 3464 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-01-01 08:38:45.776 DEBUG 3464 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-01-01 08:38:45.777 DEBUG 3464 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-01-01 08:38:51.186 DEBUG 3464 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/selectAll.html", parameters={}
+2021-01-01 08:38:51.187 DEBUG 3464 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:38:51.188 DEBUG 3464 --- [http-nio-8080-exec-5] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-01-01 08:38:51.189 DEBUG 3464 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-01-01 08:38:51.189 DEBUG 3464 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-01-01 08:38:51.190 DEBUG 3464 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-01-01 08:38:51.193 DEBUG 3464 --- [http-nio-8080-exec-5] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-01-01 08:38:51.193 DEBUG 3464 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-01-01 08:39:26.177 DEBUG 3464 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/selectAll.html", parameters={}
+2021-01-01 08:39:26.178 DEBUG 3464 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:39:26.180 DEBUG 3464 --- [http-nio-8080-exec-7] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-01-01 08:39:26.181 DEBUG 3464 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-01-01 08:39:26.181 DEBUG 3464 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-01-01 08:39:26.182 DEBUG 3464 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-01-01 08:39:26.184 DEBUG 3464 --- [http-nio-8080-exec-7] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-01-01 08:39:26.185 DEBUG 3464 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-01-01 08:39:35.663  INFO 14688 --- [main] com.hp.Demo02Application                 : Starting Demo02Application using Java 1.8.0_144 on DESKTOP-93B23N9 with PID 14688 (D:\project\demo02\target\classes started by 2609106893 in D:\project\demo02)
+2021-01-01 08:39:35.666  INFO 14688 --- [main] com.hp.Demo02Application                 : No active profile set, falling back to default profiles: default
+2021-01-01 08:39:36.608  INFO 14688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-01 08:39:36.611  INFO 14688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-01 08:39:36.637  INFO 14688 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-01-01 08:39:37.291  INFO 14688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-01 08:39:37.300  INFO 14688 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-01 08:39:37.300  INFO 14688 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-01 08:39:37.458  INFO 14688 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-01 08:39:37.459  INFO 14688 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1701 ms
+2021-01-01 08:39:37.494 DEBUG 14688 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-01-01 08:39:37.494 DEBUG 14688 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/], statViewServlet urls=[/druid/*]
+2021-01-01 08:39:37.584  INFO 14688 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-01 08:39:37.957  INFO 14688 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-01 08:39:38.438  INFO 14688 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-01 08:39:38.448 DEBUG 14688 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-01-01 08:39:38.504 DEBUG 14688 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2021-01-01 08:39:38.530 DEBUG 14688 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-01-01 08:39:38.538 DEBUG 14688 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-01-01 08:39:38.577  WARN 14688 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-01 08:39:39.082  INFO 14688 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-01 08:39:39.092  INFO 14688 --- [main] com.hp.Demo02Application                 : Started Demo02Application in 3.974 seconds (JVM running for 5.438)
+2021-01-01 08:40:05.046  INFO 14688 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-01 08:40:05.047  INFO 14688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-01 08:40:05.047 DEBUG 14688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-01-01 08:40:05.047 DEBUG 14688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-01-01 08:40:05.047 DEBUG 14688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-01-01 08:40:05.048 DEBUG 14688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@89ad571
+2021-01-01 08:40:05.049 DEBUG 14688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6aa80140
+2021-01-01 08:40:05.049 DEBUG 14688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-01-01 08:40:05.049  INFO 14688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-01 08:40:05.064 DEBUG 14688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/selectAll.html", parameters={}
+2021-01-01 08:40:05.072 DEBUG 14688 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:40:05.075 DEBUG 14688 --- [http-nio-8080-exec-1] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-01-01 08:40:05.076 DEBUG 14688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-01-01 08:40:05.082 DEBUG 14688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-01-01 08:40:05.085 DEBUG 14688 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-01-01 08:40:05.115 DEBUG 14688 --- [http-nio-8080-exec-1] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-01-01 08:40:05.120 DEBUG 14688 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-01-01 08:40:10.855 DEBUG 14688 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/selectAll", parameters={}
+2021-01-01 08:40:10.856 DEBUG 14688 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:40:10.857 DEBUG 14688 --- [http-nio-8080-exec-4] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-01-01 08:40:10.857 DEBUG 14688 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-01-01 08:40:10.859 DEBUG 14688 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-01-01 08:40:10.859 DEBUG 14688 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-01-01 08:40:10.863 DEBUG 14688 --- [http-nio-8080-exec-4] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-01-01 08:40:10.863 DEBUG 14688 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-01-01 08:40:31.831  INFO 2400 --- [main] com.hp.Demo02Application                 : Starting Demo02Application using Java 1.8.0_144 on DESKTOP-93B23N9 with PID 2400 (D:\project\demo02\target\classes started by 2609106893 in D:\project\demo02)
+2021-01-01 08:40:31.835  INFO 2400 --- [main] com.hp.Demo02Application                 : No active profile set, falling back to default profiles: default
+2021-01-01 08:40:32.700  INFO 2400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-01 08:40:32.710  INFO 2400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-01 08:40:32.740  INFO 2400 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-01-01 08:40:33.381  INFO 2400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-01 08:40:33.392  INFO 2400 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-01 08:40:33.393  INFO 2400 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-01 08:40:33.555  INFO 2400 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-01 08:40:33.556  INFO 2400 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1650 ms
+2021-01-01 08:40:33.592 DEBUG 2400 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-01-01 08:40:33.593 DEBUG 2400 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/], statViewServlet urls=[/druid/*]
+2021-01-01 08:40:33.675  INFO 2400 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-01 08:40:34.043  INFO 2400 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-01 08:40:34.549  INFO 2400 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-01 08:40:34.560 DEBUG 2400 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-01-01 08:40:34.619 DEBUG 2400 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2021-01-01 08:40:34.647 DEBUG 2400 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-01-01 08:40:34.660 DEBUG 2400 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-01-01 08:40:34.697  WARN 2400 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-01 08:40:35.196  INFO 2400 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-01 08:40:35.210  INFO 2400 --- [main] com.hp.Demo02Application                 : Started Demo02Application in 3.877 seconds (JVM running for 5.209)
+2021-01-01 08:41:22.606  INFO 2400 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-01 08:41:22.606  INFO 2400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-01 08:41:22.606 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-01-01 08:41:22.606 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-01-01 08:41:22.607 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-01-01 08:41:22.608 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@43b1e90c
+2021-01-01 08:41:22.608 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2815918e
+2021-01-01 08:41:22.608 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-01-01 08:41:22.609  INFO 2400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-01 08:41:22.626 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/aa", parameters={}
+2021-01-01 08:41:22.635 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:41:22.639 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-01-01 08:41:22.639 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-01-01 08:41:22.646 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-01-01 08:41:22.648 DEBUG 2400 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-01-01 08:41:22.681 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-01-01 08:41:22.687 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-01-01 08:41:30.273 DEBUG 2400 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:41:30.275 DEBUG 2400 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:41:30.293 DEBUG 2400 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:48:02.525 DEBUG 2400 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/selectAll.html", parameters={}
+2021-01-01 08:48:02.526 DEBUG 2400 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:48:02.528 DEBUG 2400 --- [http-nio-8080-exec-6] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-01-01 08:48:02.529 DEBUG 2400 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-01-01 08:48:02.529 DEBUG 2400 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-01-01 08:48:02.530 DEBUG 2400 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-01-01 08:48:02.534 DEBUG 2400 --- [http-nio-8080-exec-6] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-01-01 08:48:02.535 DEBUG 2400 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-01-01 08:48:08.598 DEBUG 2400 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/selectAll.html", parameters={}
+2021-01-01 08:48:08.599 DEBUG 2400 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:48:08.601 DEBUG 2400 --- [http-nio-8080-exec-8] o.s.w.s.r.ResourceHttpRequestHandler     : Resource not found
+2021-01-01 08:48:08.601 DEBUG 2400 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 404 NOT_FOUND
+2021-01-01 08:48:08.602 DEBUG 2400 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/error", parameters={}
+2021-01-01 08:48:08.602 DEBUG 2400 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#errorHtml(HttpServletRequest, HttpServletResponse)
+2021-01-01 08:48:08.605 DEBUG 2400 --- [http-nio-8080-exec-8] o.s.w.s.v.ContentNegotiatingViewResolver : Selected 'text/html' given [text/html, text/html;q=0.8]
+2021-01-01 08:48:08.605 DEBUG 2400 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 404
+2021-01-01 08:48:30.775 DEBUG 2400 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:48:30.776 DEBUG 2400 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:48:30.780 DEBUG 2400 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2021-01-01 08:49:02.749 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:49:02.750 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:49:02.751 DEBUG 2400 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2021-01-01 08:49:17.777  INFO 10736 --- [main] com.hp.Demo02Application                 : Starting Demo02Application using Java 1.8.0_144 on DESKTOP-93B23N9 with PID 10736 (D:\project\demo02\target\classes started by 2609106893 in D:\project\demo02)
+2021-01-01 08:49:17.781  INFO 10736 --- [main] com.hp.Demo02Application                 : No active profile set, falling back to default profiles: default
+2021-01-01 08:49:18.622  INFO 10736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-01 08:49:18.624  INFO 10736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-01 08:49:18.644  INFO 10736 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 8 ms. Found 0 Redis repository interfaces.
+2021-01-01 08:49:19.172  INFO 10736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-01 08:49:19.183  INFO 10736 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-01 08:49:19.184  INFO 10736 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-01 08:49:19.308  INFO 10736 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-01 08:49:19.308  INFO 10736 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1452 ms
+2021-01-01 08:49:19.341 DEBUG 10736 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-01-01 08:49:19.342 DEBUG 10736 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/], statViewServlet urls=[/druid/*]
+2021-01-01 08:49:19.423  INFO 10736 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-01 08:49:19.782  INFO 10736 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-01 08:49:20.273  INFO 10736 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-01 08:49:20.284 DEBUG 10736 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-01-01 08:49:20.344 DEBUG 10736 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2021-01-01 08:49:20.370 DEBUG 10736 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-01-01 08:49:20.379 DEBUG 10736 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-01-01 08:49:20.413  WARN 10736 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-01 08:49:20.901  INFO 10736 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-01 08:49:20.916  INFO 10736 --- [main] com.hp.Demo02Application                 : Started Demo02Application in 3.612 seconds (JVM running for 4.997)
+2021-01-01 08:49:32.207  INFO 10736 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-01 08:49:32.208  INFO 10736 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-01 08:49:32.208 DEBUG 10736 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-01-01 08:49:32.208 DEBUG 10736 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-01-01 08:49:32.208 DEBUG 10736 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-01-01 08:49:32.209 DEBUG 10736 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@11edd9a5
+2021-01-01 08:49:32.210 DEBUG 10736 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3921fa2b
+2021-01-01 08:49:32.210 DEBUG 10736 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-01-01 08:49:32.210  INFO 10736 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-01 08:49:32.228 DEBUG 10736 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:49:32.237 DEBUG 10736 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:49:32.258 DEBUG 10736 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:49:32.405 DEBUG 10736 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:49:32.406 DEBUG 10736 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:49:32.633 DEBUG 10736 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:49:32.634 DEBUG 10736 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@7ee42f20, com.hp.bean.Admin@704713d1, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:49:32.707 DEBUG 10736 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:50:10.234 DEBUG 10736 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:50:10.235 DEBUG 10736 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:50:10.237 DEBUG 10736 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2021-01-01 08:50:10.386 DEBUG 10736 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:50:10.387 DEBUG 10736 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:50:10.391 DEBUG 10736 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:50:10.391 DEBUG 10736 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@75ae3de9, com.hp.bean.Admin@7191b784, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:50:10.412 DEBUG 10736 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:50:40.973  INFO 16148 --- [main] com.hp.Demo02Application                 : Starting Demo02Application using Java 1.8.0_144 on DESKTOP-93B23N9 with PID 16148 (D:\project\demo02\target\classes started by 2609106893 in D:\project\demo02)
+2021-01-01 08:50:40.978  INFO 16148 --- [main] com.hp.Demo02Application                 : No active profile set, falling back to default profiles: default
+2021-01-01 08:50:41.980  INFO 16148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-01 08:50:41.983  INFO 16148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-01 08:50:42.008  INFO 16148 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 9 ms. Found 0 Redis repository interfaces.
+2021-01-01 08:50:42.682  INFO 16148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-01 08:50:42.693  INFO 16148 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-01 08:50:42.694  INFO 16148 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-01 08:50:42.821  INFO 16148 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-01 08:50:42.821  INFO 16148 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1756 ms
+2021-01-01 08:50:42.850 DEBUG 16148 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-01-01 08:50:42.851 DEBUG 16148 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/], statViewServlet urls=[/druid/*]
+2021-01-01 08:50:42.938  INFO 16148 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-01 08:50:43.332  INFO 16148 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-01 08:50:43.859  INFO 16148 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-01 08:50:43.877 DEBUG 16148 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-01-01 08:50:43.956 DEBUG 16148 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2021-01-01 08:50:43.988 DEBUG 16148 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-01-01 08:50:44.000 DEBUG 16148 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-01-01 08:50:44.035  WARN 16148 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-01 08:50:44.628  INFO 16148 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-01 08:50:44.640  INFO 16148 --- [main] com.hp.Demo02Application                 : Started Demo02Application in 4.251 seconds (JVM running for 5.787)
+2021-01-01 08:50:52.976  INFO 16148 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-01 08:50:52.976  INFO 16148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-01 08:50:52.976 DEBUG 16148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-01-01 08:50:52.976 DEBUG 16148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-01-01 08:50:52.976 DEBUG 16148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-01-01 08:50:52.977 DEBUG 16148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@6137af94
+2021-01-01 08:50:52.978 DEBUG 16148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@796932b4
+2021-01-01 08:50:52.978 DEBUG 16148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-01-01 08:50:52.978  INFO 16148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-01-01 08:50:52.992 DEBUG 16148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:50:53.001 DEBUG 16148 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:50:53.021 DEBUG 16148 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:50:53.202 DEBUG 16148 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:50:53.204 DEBUG 16148 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:50:53.429 DEBUG 16148 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:50:53.429 DEBUG 16148 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@3907fccd, com.hp.bean.Admin@8a9ea53, com.hp.bean.Admin@ (truncated)...]
+2021-01-01 08:50:53.485 DEBUG 16148 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:52:40.885 DEBUG 16148 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:52:40.886 DEBUG 16148 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:52:40.888 DEBUG 16148 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2021-01-01 08:52:41.036 DEBUG 16148 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:52:41.036 DEBUG 16148 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:52:41.043 DEBUG 16148 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:52:41.043 DEBUG 16148 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@1ad72633, com.hp.bean.Admin@7ff492fe, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:52:41.045 DEBUG 16148 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:52:59.268  INFO 22456 --- [main] com.hp.Demo02Application                 : Starting Demo02Application using Java 1.8.0_144 on DESKTOP-93B23N9 with PID 22456 (D:\project\demo02\target\classes started by 2609106893 in D:\project\demo02)
+2021-01-01 08:52:59.271  INFO 22456 --- [main] com.hp.Demo02Application                 : No active profile set, falling back to default profiles: default
+2021-01-01 08:53:00.180  INFO 22456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-01-01 08:53:00.185  INFO 22456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-01-01 08:53:00.214  INFO 22456 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 0 Redis repository interfaces.
+2021-01-01 08:53:00.733  INFO 22456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-01-01 08:53:00.742  INFO 22456 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-01-01 08:53:00.742  INFO 22456 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.41]
+2021-01-01 08:53:00.866  INFO 22456 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2021-01-01 08:53:00.866  INFO 22456 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1525 ms
+2021-01-01 08:53:00.893 DEBUG 22456 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping filters: filterRegistrationBean urls=[/*] order=2147483647, characterEncodingFilter urls=[/*] order=-2147483648, formContentFilter urls=[/*] order=-9900, requestContextFilter urls=[/*] order=-105
+2021-01-01 08:53:00.893 DEBUG 22456 --- [main] o.s.b.w.s.ServletContextInitializerBeans : Mapping servlets: dispatcherServlet urls=[/], statViewServlet urls=[/druid/*]
+2021-01-01 08:53:00.959  INFO 22456 --- [main] c.a.d.s.b.a.DruidDataSourceAutoConfigure : Init DruidDataSource
+2021-01-01 08:53:01.321  INFO 22456 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-1} inited
+2021-01-01 08:53:01.767  INFO 22456 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-01-01 08:53:01.778 DEBUG 22456 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-01-01 08:53:01.842 DEBUG 22456 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : 8 mappings in 'requestMappingHandlerMapping'
+2021-01-01 08:53:01.872 DEBUG 22456 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-01-01 08:53:01.881 DEBUG 22456 --- [main] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 0 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-01-01 08:53:01.911  WARN 22456 --- [main] ion$DefaultTemplateResolverConfiguration : Cannot find template location: classpath:/templates/ (please add some templates or check your Thymeleaf configuration)
+2021-01-01 08:53:02.376  INFO 22456 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2021-01-01 08:53:02.387  INFO 22456 --- [main] com.hp.Demo02Application                 : Started Demo02Application in 3.606 seconds (JVM running for 4.995)
+2021-01-01 08:53:08.050  INFO 22456 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-01-01 08:53:08.051  INFO 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-01-01 08:53:08.052 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-01-01 08:53:08.052 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-01-01 08:53:08.052 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-01-01 08:53:08.053 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@8fc7049
+2021-01-01 08:53:08.054 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@2274d217
+2021-01-01 08:53:08.054 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-01-01 08:53:08.055  INFO 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-01-01 08:53:08.075 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:53:08.085 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:53:08.107 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:53:08.263 DEBUG 22456 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:53:08.266 DEBUG 22456 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:53:08.512 DEBUG 22456 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:53:08.513 DEBUG 22456 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@5bf0c313, com.hp.bean.Admin@2dd4cf7f, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:53:08.588 DEBUG 22456 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:53:45.450 DEBUG 22456 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:53:45.451 DEBUG 22456 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:53:45.457 DEBUG 22456 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:53:45.612 DEBUG 22456 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:53:45.613 DEBUG 22456 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:53:45.637 DEBUG 22456 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:53:45.638 DEBUG 22456 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@483ebf90, com.hp.bean.Admin@4c01324f, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:53:45.639 DEBUG 22456 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:54:05.737 DEBUG 22456 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:54:05.738 DEBUG 22456 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:54:05.742 DEBUG 22456 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:54:05.883 DEBUG 22456 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:54:05.883 DEBUG 22456 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:54:05.886 DEBUG 22456 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:54:05.887 DEBUG 22456 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@765cdab5, com.hp.bean.Admin@726350a6, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:54:05.888 DEBUG 22456 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:55:54.796 DEBUG 22456 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:55:54.798 DEBUG 22456 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:55:54.803 DEBUG 22456 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:55:54.945 DEBUG 22456 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:55:54.945 DEBUG 22456 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:55:54.950 DEBUG 22456 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:55:54.951 DEBUG 22456 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@48ad4162, com.hp.bean.Admin@5abb9050, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:55:54.952 DEBUG 22456 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:56:33.191 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:56:33.193 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:56:33.199 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:56:33.546 DEBUG 22456 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:56:33.547 DEBUG 22456 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:56:33.549 DEBUG 22456 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:56:33.549 DEBUG 22456 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@67432d0, com.hp.bean.Admin@7eefd968, com.hp.bean.Admin@ (truncated)...]
+2021-01-01 08:56:33.550 DEBUG 22456 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:56:36.241 DEBUG 22456 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:56:36.242 DEBUG 22456 --- [http-nio-8080-exec-5] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:56:36.244 DEBUG 22456 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2021-01-01 08:56:36.395 DEBUG 22456 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:56:36.396 DEBUG 22456 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:56:36.400 DEBUG 22456 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:56:36.401 DEBUG 22456 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@6692da35, com.hp.bean.Admin@6d62d769, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:56:36.403 DEBUG 22456 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:56:43.614 DEBUG 22456 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:56:43.615 DEBUG 22456 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:56:43.620 DEBUG 22456 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:56:43.835 DEBUG 22456 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:56:43.835 DEBUG 22456 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:56:43.838 DEBUG 22456 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:56:43.839 DEBUG 22456 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@61ce138, com.hp.bean.Admin@6e92773d, com.hp.bean.Admin@ (truncated)...]
+2021-01-01 08:56:43.840 DEBUG 22456 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:56:45.013 DEBUG 22456 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:56:45.014 DEBUG 22456 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:56:45.015 DEBUG 22456 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2021-01-01 08:56:45.214 DEBUG 22456 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:56:45.214 DEBUG 22456 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:56:45.217 DEBUG 22456 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:56:45.217 DEBUG 22456 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@55364cf6, com.hp.bean.Admin@5109d288, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:56:45.218 DEBUG 22456 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:56:45.805 DEBUG 22456 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:56:45.806 DEBUG 22456 --- [http-nio-8080-exec-9] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:56:45.807 DEBUG 22456 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 304 NOT_MODIFIED
+2021-01-01 08:56:45.922 DEBUG 22456 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:56:45.922 DEBUG 22456 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:56:45.924 DEBUG 22456 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:56:45.925 DEBUG 22456 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@2931174a, com.hp.bean.Admin@2f8e2b2c, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:56:45.926 DEBUG 22456 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:57:10.284 DEBUG 22456 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:57:10.285 DEBUG 22456 --- [http-nio-8080-exec-4] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:57:10.288 DEBUG 22456 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:57:10.551 DEBUG 22456 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:57:10.552 DEBUG 22456 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:57:10.556 DEBUG 22456 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:57:10.556 DEBUG 22456 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@60a5565f, com.hp.bean.Admin@3217f5fb, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:57:10.557 DEBUG 22456 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:57:47.545 DEBUG 22456 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:57:47.547 DEBUG 22456 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:57:47.552 DEBUG 22456 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:57:47.751 DEBUG 22456 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:57:47.752 DEBUG 22456 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:57:47.756 DEBUG 22456 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:57:47.756 DEBUG 22456 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@136a0c94, com.hp.bean.Admin@48bb8f2f, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:57:47.758 DEBUG 22456 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:58:02.225 DEBUG 22456 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 08:58:02.227 DEBUG 22456 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 08:58:02.231 DEBUG 22456 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 08:58:02.459 DEBUG 22456 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 08:58:02.459 DEBUG 22456 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 08:58:02.462 DEBUG 22456 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 08:58:02.462 DEBUG 22456 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@71206c59, com.hp.bean.Admin@751ff6a5, com.hp.bean.Admin (truncated)...]
+2021-01-01 08:58:02.463 DEBUG 22456 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 09:00:11.130 DEBUG 22456 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 09:00:11.131 DEBUG 22456 --- [http-nio-8080-exec-10] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 09:00:11.136 DEBUG 22456 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 09:00:11.431 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 09:00:11.431 DEBUG 22456 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 09:00:11.434 DEBUG 22456 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 09:00:11.435 DEBUG 22456 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@5b2e5113, com.hp.bean.Admin@30fdec2e, com.hp.bean.Admin (truncated)...]
+2021-01-01 09:00:11.436 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 09:01:12.495 DEBUG 22456 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 09:01:12.496 DEBUG 22456 --- [http-nio-8080-exec-6] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 09:01:12.501 DEBUG 22456 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 09:01:12.687 DEBUG 22456 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 09:01:12.687 DEBUG 22456 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 09:01:12.690 DEBUG 22456 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 09:01:12.690 DEBUG 22456 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@7345f3db, com.hp.bean.Admin@6713c86b, com.hp.bean.Admin (truncated)...]
+2021-01-01 09:01:12.691 DEBUG 22456 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 09:01:44.206 DEBUG 22456 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 09:01:44.207 DEBUG 22456 --- [http-nio-8080-exec-8] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 09:01:44.212 DEBUG 22456 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 09:01:44.390 DEBUG 22456 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 09:01:44.391 DEBUG 22456 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 09:01:44.396 DEBUG 22456 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 09:01:44.396 DEBUG 22456 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@b47c051, com.hp.bean.Admin@5032992d, com.hp.bean.Admin@ (truncated)...]
+2021-01-01 09:01:44.397 DEBUG 22456 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 09:02:02.932 DEBUG 22456 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 09:02:02.932 DEBUG 22456 --- [http-nio-8080-exec-2] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 09:02:02.936 DEBUG 22456 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 09:02:03.107 DEBUG 22456 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 09:02:03.107 DEBUG 22456 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 09:02:03.113 DEBUG 22456 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 09:02:03.113 DEBUG 22456 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@1e4621f3, com.hp.bean.Admin@cfeda88, com.hp.bean.Admin@ (truncated)...]
+2021-01-01 09:02:03.114 DEBUG 22456 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 09:02:32.867 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 09:02:32.868 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 09:02:32.872 DEBUG 22456 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 09:02:33.053 DEBUG 22456 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 09:02:33.053 DEBUG 22456 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 09:02:33.056 DEBUG 22456 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 09:02:33.056 DEBUG 22456 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@9ab9043, com.hp.bean.Admin@10f30fe, com.hp.bean.Admin@7 (truncated)...]
+2021-01-01 09:02:33.057 DEBUG 22456 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 09:04:04.037 DEBUG 22456 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 09:04:04.038 DEBUG 22456 --- [http-nio-8080-exec-7] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 09:04:04.043 DEBUG 22456 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 09:04:04.226 DEBUG 22456 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 09:04:04.227 DEBUG 22456 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 09:04:04.229 DEBUG 22456 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 09:04:04.230 DEBUG 22456 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@53009436, com.hp.bean.Admin@1a720c08, com.hp.bean.Admin (truncated)...]
+2021-01-01 09:04:04.231 DEBUG 22456 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 09:04:59.414 DEBUG 22456 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : GET "/aa.html", parameters={}
+2021-01-01 09:04:59.415 DEBUG 22456 --- [http-nio-8080-exec-3] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped to ResourceHttpRequestHandler ["classpath:/META-INF/resources/", "classpath:/resources/", "classpath:/static/", "classpath:/public/", "/"]
+2021-01-01 09:04:59.420 DEBUG 22456 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-01-01 09:04:59.585 DEBUG 22456 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/api/admin/selectAll", parameters={}
+2021-01-01 09:04:59.586 DEBUG 22456 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to com.hp.controller.AdminController#selectAll()
+2021-01-01 09:04:59.590 DEBUG 22456 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-01-01 09:04:59.590 DEBUG 22456 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Writing [{msg=查询成功, code=0, admins=[com.hp.bean.Admin@3ad7bd3b, com.hp.bean.Admin@7424b982, com.hp.bean.Admin (truncated)...]
+2021-01-01 09:04:59.591 DEBUG 22456 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
